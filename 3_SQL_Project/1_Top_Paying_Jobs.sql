@@ -9,7 +9,6 @@ SELECT
     job_id,
     job_title,
     salary_year_avg ,
-    job_location,
     job_country,
     name AS company_name,
     job_schedule_type

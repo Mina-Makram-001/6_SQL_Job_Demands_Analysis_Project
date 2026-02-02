@@ -34,4 +34,5 @@ FROM TOP_10_PAYING_JOBS tpj
 INNER JOIN skills_job_dim sjd ON tpj.job_id = sjd.job_id
 INNER JOIN skills_dim sd ON sjd.skill_id = sd.skill_id
 GROUP BY sd.skills
-ORDER BY skill_count DESC;
+ORDER BY skill_count DESC
+LIMIT 10;

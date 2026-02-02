@@ -39,7 +39,6 @@ SELECT
     job_id,
     job_title,
     salary_year_avg ,
-    job_location,
     job_country,
     name AS company_name,
     job_schedule_type
@@ -56,6 +55,22 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;
 ```
+
+|  Job ID | Job Title                                       | Salary Year Avg ($) | Job Country   | Company Name                 | Job Schedule Type |
+| ------: | ----------------------------------------------- | ------------------: | ------------- | ---------------------------- | ----------------- |
+|  226942 | Data Analyst                                    |             650,000 | India         | Mantys                       | Full-time         |
+|  547382 | Director of Analytics                           |             336,500 | United States | Meta                         | Full-time         |
+|  552322 | Associate Director- Data Insights               |           255,829.5 | United States | AT&T                         | Full-time         |
+|   99305 | Data Analyst, Marketing                         |             232,423 | United States | Pinterest Job Advertisements | Full-time         |
+| 1021647 | Data Analyst (Hybrid/Remote)                    |             217,000 | United States | Uclahealthcareers            | Full-time         |
+|  168310 | Principal Data Analyst (Remote)                 |             205,000 | United States | SmartAsset                   | Full-time         |
+|  731368 | Director, Data Analyst - HYBRID                 |             189,309 | United States | Inclusively                  | Full-time         |
+|  310660 | Principal Data Analyst, AV Performance Analysis |             189,000 | United States | Motional                     | Full-time         |
+| 1749593 | Principal Data Analyst                          |             186,000 | United States | SmartAsset                   | Full-time         |
+| 1638595 | Senior Data Analyst                             |             185,000 | United States | Patterned Learning AI        | Full-time         |
+
+*Table for the top paying data analyst jobs*
+
 Here's the breakdown of the top data analyst jobs in 2023:
 - **Wide Salary Range:** Top 10 paying data analyst roles span from $184,000 to $650,000, indicating significant salary potential in the field.
 - **Diverse Employers:** Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
@@ -93,8 +108,24 @@ FROM TOP_10_PAYING_JOBS tpj
 INNER JOIN skills_job_dim sjd ON tpj.job_id = sjd.job_id
 INNER JOIN skills_dim sd ON sjd.skill_id = sd.skill_id
 GROUP BY sd.skills
-ORDER BY skill_count DESC;
+ORDER BY skill_count DESC
+LIMIT 10;
 ```
+
+| Skills     | Skill Count |
+| ---------- | ----------: |
+| sql        |           8 |
+| python     |           7 |
+| tableau    |           6 |
+| excel      |           3 |
+| aws        |           3 |
+| snowflake  |           3 |
+| pandas     |           3 |
+| r          |           3 |
+| confluence |           2 |
+| jira       |           2 |
+
+*Table for the top paying data analyst skills*
 
 Here's the breakdown of the most demanded skills for the top 10 highest paying data analyst jobs in 2023:
 - **SQL** is leading with a bold count of 8.
