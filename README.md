@@ -153,9 +153,6 @@ ORDER BY
     demand_count DESC
 LIMIT 5;
 ```
-Here's the breakdown of the most demanded skills for data analysts in 2023
-- **SQL** and **Excel** remain fundamental, emphasizing the need for strong foundational skills in data processing and spreadsheet manipulation.
-- **Programming** and **Visualization Tools** like **Python**, **Tableau**, and **Power BI** are essential, pointing towards the increasing importance of technical skills in data storytelling and decision support.
 
 | Skills   | Demand Count |
 |----------|--------------|
@@ -166,6 +163,11 @@ Here's the breakdown of the most demanded skills for data analysts in 2023
 | Power BI | 2609         |
 
 *Table of the demand for the top 5 skills in data analyst job postings*
+
+Here's the breakdown of the most demanded skills for data analysts in 2023:
+- **SQL** and **Excel** remain fundamental, emphasizing the need for strong foundational skills in data processing and spreadsheet manipulation.
+- **Programming** and **Visualization Tools** like **Python**, **Tableau**, and **Power BI** are essential, pointing towards the increasing importance of technical skills in data storytelling and decision support.
+
 
 ### 4. Skills Based on Salary
 Exploring the average salaries associated with different skills revealed which skills are the highest paying.
@@ -192,12 +194,6 @@ ORDER BY
 LIMIT 25;
 ```
 
-Here's a breakdown of the results for top paying skills for Data Analysts:
-
-* **Big Data & Machine Learning Skills Lead Salaries:** Skills such as PySpark, Databricks, TensorFlow, PyTorch, Keras, and DataRobot are associated with the highest average salaries, reflecting strong industry demand for expertise in large-scale data processing and predictive modeling.
-* **Software Development & Collaboration Tools Matter:** Knowledge of development and deployment tools like Bitbucket, GitLab, FastAPI, Angular, Flask, and Swift highlights the premium placed on analysts who can contribute to software workflows, automation, and efficient data pipelines.
-* **Core Analytical & Infrastructure Skills Remain Valuable:** Libraries and tools like Pandas, NumPy, Jupyter, Kafka, Cassandra, Linux, and Couchbase show that proficiency in core analytics and data engineering infrastructure continues to boost earning potential, emphasizing the advantage of combining data science with technical engineering skills in remote Data Analyst roles.
-
 | Skills    | Average Salary ($) |
 | --------- | -----------------: |
 | bitbucket |            189,155 |
@@ -212,6 +208,12 @@ Here's a breakdown of the results for top paying skills for Data Analysts:
 | jupyter   |            151,138 |
 
 *Table of the average salary for the top 10 paying skills for data analysts*
+
+Here's a breakdown of the results for top paying skills for Data Analysts:
+
+* **Big Data & Machine Learning Skills Lead Salaries:** Skills such as PySpark, Databricks, TensorFlow, PyTorch, Keras, and DataRobot are associated with the highest average salaries, reflecting strong industry demand for expertise in large-scale data processing and predictive modeling.
+* **Software Development & Collaboration Tools Matter:** Knowledge of development and deployment tools like Bitbucket, GitLab, FastAPI, Angular, Flask, and Swift highlights the premium placed on analysts who can contribute to software workflows, automation, and efficient data pipelines.
+* **Core Analytical & Infrastructure Skills Remain Valuable:** Libraries and tools like Pandas, NumPy, Jupyter, Kafka, Cassandra, Linux, and Couchbase show that proficiency in core analytics and data engineering infrastructure continues to boost earning potential, emphasizing the advantage of combining data science with technical engineering skills in remote Data Analyst roles.
 
 ### 5. Most Optimal Skills to Learn
 
